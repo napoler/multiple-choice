@@ -31,7 +31,7 @@ from datasets import load_dataset
 import transformers
 from transformers import (
     BertConfig as AutoConfig,
-    BertModelForMultipleChoice as AutoModelForMultipleChoice,
+    BertForMultipleChoice as AutoModelForMultipleChoice,
     BertTokenizer  as AutoTokenizer,
     HfArgumentParser,
     Trainer,
